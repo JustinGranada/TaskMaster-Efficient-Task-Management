@@ -16,7 +16,7 @@ def main():
     # create_item('beer', price=2.0, quantity=10)
 
     # READ
-    print('READ tasks')
+    print('Read All Tasks')
     print(read_tasks())
     # if we try to read an object not stored we get an ItemNotStored exception
     # print('READ chocolate')
