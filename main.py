@@ -1,4 +1,4 @@
-import task
+from task import *
 from datetime import datetime
 from  basic_backend import *
 
@@ -11,7 +11,7 @@ def main():
     ]
     # CREATE
     create_tasks(my_items)
-    create_task('review quiz', 'chapter 1 - 3',datetime.date(2024,5,1),'High' )
+    create_task('review quiz', 'chapter 1 - 3',datetime(2024,5,1),'Low' )
     # if we try to re-create an object we get an ItemAlreadyStored exception
     # create_item('beer', price=2.0, quantity=10)
 
@@ -41,6 +41,7 @@ def main():
 
     print('READ tasks')
     print(read_tasks())
+    
 
 if __name__ == '__main__':
     main()
