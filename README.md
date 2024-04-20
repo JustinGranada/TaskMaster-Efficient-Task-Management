@@ -5,8 +5,8 @@ By providing a centralized area to develop, assign, monitor, and control academi
 
 ## Requirements
 Running the program requireds the following dependencies:
-> Python 3.X
+- Python 3.X
 
 ## Setup
 To integrate starting up the program:
-> run main.py in terminal to show basic funtions of the application.
+- run main.py in terminal to show basic funtions of the application.
