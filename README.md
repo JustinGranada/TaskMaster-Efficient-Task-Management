@@ -9,4 +9,4 @@ Running the program requireds the following dependencies:
 
 ## Setup
 To integrate starting up the program:
-- run main.py in terminal to show basic funtions of the application.
+- run LoginAndRegistrationPage.py in terminal to show basic funtions of the application.
